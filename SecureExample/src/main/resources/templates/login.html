@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#AED6F1">
+    <div if="${param.error}">
+        <h3>The usename n password are incorrect</h3>
+    </div>  
+    <div if="param.Logout">
+        <h3>The user has been logged out</h3>
+    </div>  
+    <form action="@{/Login}" method="post">
+        <div><label>Customer Username: <input type="text" name="username"></label></div>
+        <div><label>Password: <input type="password" name="password"></label></div>
+        <div><input type="submit" value="Login"></div>
+    </form>
+
+</body>
+</html>

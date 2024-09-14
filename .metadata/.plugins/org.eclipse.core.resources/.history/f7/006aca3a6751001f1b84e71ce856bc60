@@ -1,0 +1,5 @@
+package com.dailycodebuffer.Springboot.tutorial.Repository;
+
+public interface CustRepo {
+
+}

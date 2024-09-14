@@ -1,0 +1,16 @@
+package com.dailycodebufferconfig;
+
+import org.springframework.beans.factory.ObjectProvider;
+import org.springframework.cloud.loadbalancer.core.ServiceInstanceListSupplier;
+import org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class LoadBalancerConfig {
+
+	@Bean
+	public ObjectProvider<ServiceInstanceListSupplier> myLoadBalancer(LoadBalancerClientFactory clientFactory) {
+		return clientFactory.getLazyProvider("DEPARTMENT-SERVICE", ServiceInstanceListSupplier.class);
+	}
+}

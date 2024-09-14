@@ -1,0 +1,3 @@
+INDEX VERSION 1.132
+file:/C:/Users/sandeep.kasturi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/springboot-3-microservices-main/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+meta_index

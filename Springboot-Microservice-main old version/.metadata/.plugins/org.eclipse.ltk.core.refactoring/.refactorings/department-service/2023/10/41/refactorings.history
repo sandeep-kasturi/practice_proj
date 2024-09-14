@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.dailycodebuffer&apos; to &apos;com.dailycodebuffer.dep&apos;&#x0D;&#x0A;- Original project: &apos;department-service&apos;&#x0D;&#x0A;- Original element: &apos;department-service/src/main/java/com.dailycodebuffer&apos;&#x0D;&#x0A;- Renamed element: &apos;department-service/src/main/java/com.dailycodebuffer.dep&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.dailycodebuffer&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dailycodebuffer" name="com.dailycodebuffer.dep" qualified="false" references="true" stamp="1696757340680" textual="false" version="1.0"/>
+</session>

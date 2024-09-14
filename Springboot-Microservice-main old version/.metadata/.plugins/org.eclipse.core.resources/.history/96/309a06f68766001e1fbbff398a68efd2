@@ -1,0 +1,45 @@
+package com.dailycodebufferconfig;
+
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerRequest;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
+import java.io.IOException;
+import java.net.URI;
+import java.util.List;
+import java.util.Random;
+
+public class MyLoadBalancerClient implements LoadBalancerClient {
+
+  private DiscoveryClient discoveryClient;
+
+  private RestTemplate restTemplate;
+
+  public MyLoadBalancerClient(DiscoveryClient discoveryClient, RestTemplate restTemplate) {
+    this.discoveryClient = discoveryClient;
+    this.restTemplate = restTemplate;
+  }
+
+  @Override
+  public ServiceInstance choose(String serviceId) {
+    List<ServiceInstance> instances = discoveryClient.getInstances(serviceId);
+
+    int index = new Random().nextInt(instances.size());
+
+    return instances.get(index);
+  }
+
+  @Override
+  public <T> T execute(String serviceId, LoadBalancerRequest<T> request) throws IOException {
+    ServiceInstance instance = choose(serviceId);
+
+    URI uri = request.getUri();
+
+    return restTemplate.exchange(uri, request.getRequest(), request.getResponseType()).getBody(); 
+  }
+
+}

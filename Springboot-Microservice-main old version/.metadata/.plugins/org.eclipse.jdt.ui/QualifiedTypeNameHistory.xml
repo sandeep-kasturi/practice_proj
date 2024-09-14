@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.vo.Department"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.openfeign.departmentFeignClient"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.openfeign.DepartmentFeignClient"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.usr.entity.User"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.usr.entity.Department"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.usr.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.usr.openfeign.DepartmentFeignClient"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.usr.vo.DepartmentMapper"/>
+    <fullyQualifiedTypeName name="com.dailycodebuffer.usr.vo.Department"/>
+    <fullyQualifiedTypeName name="java.net.URLEncoder"/>
+    <fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+    <fullyQualifiedTypeName name="io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.client.DefaultResponseErrorHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.http.client.ClientHttpResponse"/>
+    <fullyQualifiedTypeName name="org.springframework.web.client.RestClientException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.loadbalancer.core.ReactorLoadBalancer"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.ServiceInstance"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.config.environment.Environment"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient"/>
+    <fullyQualifiedTypeName name="feign.Feign"/>
+    <fullyQualifiedTypeName name="feign.Feign.Builder"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.loadbalancer.LoadBalanced"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="io.github.resilience4j.retry.annotation.Retry"/>
+    <fullyQualifiedTypeName name="io.github.resilience4j.ratelimiter.annotation.RateLimiter"/>
+</qualifiedTypeNameHistroy>
